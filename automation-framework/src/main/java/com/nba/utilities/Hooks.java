@@ -11,6 +11,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class Hooks {
 
@@ -44,8 +46,10 @@ public class Hooks {
 
     @After
     public void attachReport(Scenario scenario) throws IOException {
-        File csvFile = new File("report/"+ConfigFactory.getConfig().getOutputFile());
-        byte[] fileContent = Files.readAllBytes(csvFile.toPath());
-        scenario.attach(fileContent, "text/plain", "Attached File");
+        if(Files.exists(Path.of("report"))){
+            File csvFile = new File("report/"+ConfigFactory.getConfig().getOutputFile());
+            byte[] fileContent = Files.readAllBytes(csvFile.toPath());
+            scenario.attach(fileContent, "text/plain", "Attached File");
+        }
     }
 }

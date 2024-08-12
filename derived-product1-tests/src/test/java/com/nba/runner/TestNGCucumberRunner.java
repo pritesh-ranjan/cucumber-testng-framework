@@ -12,13 +12,11 @@ import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
         snippets = CAMELCASE,
         plugin = {
                 "json:target/cucumber-report.json",
-                "html:target/cucumber-reports/report.html",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+                "html:target/cucumber-reports/report.html"},
         features = "src/test/resources/features",
         glue = {"com.nba.stepdefinitions", "com.nba.utilities"},
         monochrome = true,
-        dryRun = false,
-        tags = "@smoke"
+        dryRun = false
 )
 @Listeners(NbaTestListner.class)
 public class TestNGCucumberRunner extends AbstractTestNGCucumberTests {

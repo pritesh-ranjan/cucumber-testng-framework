@@ -4,7 +4,7 @@
 
     <test name="CucumberParallelTest">
         <classes>
-            <class name="com.nba.runner.TestNGCucumberRunner"/>
+            <class name="com.nba.runners.TestNGCucumberRunner"/>
         </classes>
     </test>
 </suite>

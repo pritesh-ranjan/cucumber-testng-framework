@@ -16,8 +16,7 @@ import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
         features = "src/test/resources/features",
         glue = {"com.nba.stepdefinitions", "com.nba.utilities"},
         monochrome = true,
-        dryRun = false,
-        tags = "@smoke2"
+        dryRun = false
 )
 @Listeners(NbaTestListner.class)
 public class TestNGCucumberRunner extends AbstractTestNGCucumberTests {
