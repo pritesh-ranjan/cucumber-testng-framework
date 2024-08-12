@@ -1,9 +1,8 @@
 package com.nba.pages;
 
 import com.nba.utilities.TestContext;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -19,7 +18,7 @@ public class BasePage {
     }
 
     protected void click(By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
     }
 
@@ -31,7 +30,17 @@ public class BasePage {
         driver.findElement(locator).sendKeys(key);
     }
 
+    protected void hoverOn(WebElement el) {
+        Actions action = new Actions(driver);
+        action.moveToElement(el).build().perform();
+    }
+
     public void closeAllPopups() {
         click(closePopUp);
+    }
+
+    protected void scrollTo(By locator){
+        WebElement element = driver.findElement(locator);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
     }
 }

@@ -2,12 +2,19 @@ package com.nba.utilities;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+
 public class Hooks {
+
+
 
     @Before
     public void createDriver() {
@@ -32,5 +39,13 @@ public class Hooks {
     @After
     public void closeDriver() {
         TestContext.CONTEXT.getDriver().quit();
+    }
+
+
+    @After
+    public void attachReport(Scenario scenario) throws IOException {
+        File csvFile = new File("report/"+ConfigFactory.getConfig().getOutputFile());
+        byte[] fileContent = Files.readAllBytes(csvFile.toPath());
+        scenario.attach(fileContent, "text/plain", "Attached File");
     }
 }

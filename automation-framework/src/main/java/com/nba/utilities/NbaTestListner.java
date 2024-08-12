@@ -6,8 +6,7 @@ import org.testng.ITestResult;
 public class NbaTestListner implements ITestListener {
     @Override
     public void onTestStart(ITestResult result) {
-        System.out.println("HELLOW");
-//        ITestListener.super.onTestStart(result);
+
     }
 
     @Override

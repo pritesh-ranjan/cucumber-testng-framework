@@ -1,12 +1,16 @@
 package com.nba.pages;
 
+import com.nba.utilities.ConfigFactory;
 import com.opencsv.CSVWriter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.List;
 import java.util.Set;
 
@@ -36,8 +40,10 @@ public class ShopPage extends BasePage {
     }
 
     public void getResults() throws IOException {
+        Files.createDirectories(Path.of("report"));
+        File csvFile = new File("report"+ "/" + ConfigFactory.getConfig().getOutputFile());
 
-        try (CSVWriter writer = new CSVWriter(new FileWriter("output.csv"))) {
+        try (CSVWriter writer = new CSVWriter(new FileWriter(csvFile))) {
             String[] header = {"Title", "Price", "Comment"};
             writer.writeNext(header);
 

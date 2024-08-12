@@ -1,4 +1,4 @@
-package com.nba.runner;
+package com.nba.runners;
 
 import com.nba.utilities.NbaTestListner;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
@@ -17,7 +17,7 @@ import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
         glue = {"com.nba.stepdefinitions", "com.nba.utilities"},
         monochrome = true,
         dryRun = false,
-        tags = "@smoke"
+        tags = "@smoke2"
 )
 @Listeners(NbaTestListner.class)
 public class TestNGCucumberRunner extends AbstractTestNGCucumberTests {

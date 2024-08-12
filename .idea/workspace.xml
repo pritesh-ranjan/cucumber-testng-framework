@@ -5,30 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b1cc4fb-e5a8-4fc5-99e4-cd36211eeba2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation-framework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/NbaTestListner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/TestContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automation-framework/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-product-tests/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/constants/MenuItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/pages/ShopPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-product-tests/src/test/java/com/nba/runner/TestNGCucumberRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-product-tests/src/test/java/com/nba/stepdefinitions/StepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-product-tests/src/test/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core-product-tests/src/test/resources/features/core_product_tests.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/derived-product1-tests/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/derived-product2-tests/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/ConfigFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/FrameworkConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/pages/NewsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core-product-tests/src/test/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derived-product1-tests/src/main/java/com/nba/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derived-product1-tests/src/test/java/com/nba/runner/TestNGCucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derived-product1-tests/src/test/java/com/nba/stepdefinitions/StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derived-product1-tests/src/test/resources/features/dereived_product1_tests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derived-product2-tests/src/main/java/com/nba/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derived-product2-tests/src/test/java/com/nba/runners/TestNGCucumberRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derived-product2-tests/src/test/java/com/nba/stepdefinitions/StepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derived-product2-tests/src/test/resources/features/derived_product2_tests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/NbaTestListner.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/NbaTestListner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation-framework/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/constants/MenuItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/constants/MenuItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/pages/ShopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/pages/ShopPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-product-tests/src/test/java/com/nba/runner/TestNGCucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-product-tests/src/test/java/com/nba/runner/TestNGCucumberRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-product-tests/src/test/java/com/nba/stepdefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-product-tests/src/test/java/com/nba/stepdefinitions/StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-product-tests/src/test/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-product-tests/src/test/resources/features/core_product_tests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/core-product-tests/src/test/resources/features/core_product_tests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derived-product1-tests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/derived-product1-tests/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derived-product2-tests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/derived-product2-tests/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +76,17 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.nba.constants" />
+      <recent name="com.nba.pages" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.nba.stepdefinitions" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nba.runners" />
+      <recent name="com.nba.runner" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGCucumberRunner">
+  <component name="RunManager" selected="TestNG.C:/Users/Pritesh/IdeaProjects/VeebaNba/core-product-tests/src/test/resources/testng.xml">
     <configuration name="Scenario: Test 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/core-product-tests/src/test/resources/features/core_product_tests.feature" />
@@ -89,6 +102,50 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/Pritesh/IdeaProjects/VeebaNba/core-product-tests/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="core-product-tests" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/core-product-tests/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGCucumberRunner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="derived-product1-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nba.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nba.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.nba.runner.TestNGCucumberRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGCucumberRunner (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="derived-product2-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nba.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nba.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.nba.runners.TestNGCucumberRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,7 +169,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Pritesh/IdeaProjects/VeebaNba/core-product-tests/src/test/resources/testng.xml" />
         <item itemvalue="TestNG.TestNGCucumberRunner" />
+        <item itemvalue="TestNG.TestNGCucumberRunner (2)" />
+        <item itemvalue="TestNG.TestNGCucumberRunner (1)" />
         <item itemvalue="Cucumber Java.Scenario: Test 1" />
       </list>
     </recent_temporary>
@@ -127,5 +187,36 @@
       <updated>1723319247052</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/derived-product1-tests/src/test/java/com/nba/stepdefinitions/StepDefinitions.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/derived-product2-tests/src/main/java/com/nba/pages/HomePage.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/derived-product2-tests/src/test/java/com/nba/stepdefinitions/StepDefinitions.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/derived-product2-tests/src/main/java/com/nba/pages/HomePage.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/pages/HomePage.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -12,7 +12,8 @@ import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
         snippets = CAMELCASE,
         plugin = {
                 "json:target/cucumber-report.json",
-                "html:target/cucumber-reports/report.html"},
+                "html:target/cucumber-reports/report.html",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         features = "src/test/resources/features",
         glue = {"com.nba.stepdefinitions", "com.nba.utilities"},
         monochrome = true,
