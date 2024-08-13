@@ -49,11 +49,21 @@ The project is organized into four modules:
 - **Browser Selection**:
     - Browser configurations are handled via a properties file, allowing dynamic selection of browsers for test execution.
 
-## Setup
 
-1. **Clone the Repository**:
 
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+### Setup
+1. Clone the repository.
+2. Navigate to the project root and execute `mvn clean install` to build the project and download the necessary dependencies.
+3. Configure the browser selection in the `config.properties` file located in the `automation-framework` module.
+
+### Running Tests
+- Use the `testng.xml` file to execute tests. The file allows configuration for parallel execution, test tagging, and more.
+- To run tests with specific Cucumber tags, modify the `testng.xml` file accordingly.
+
+### Directory Structure
+- **src/main/java**: Contains Java code for the framework.
+- **src/test/resources**: Contains Feature Files and test resources like data files.
+
+## Contribution
+Please feel free to contribute to this project by opening pull requests or reporting issues.
 

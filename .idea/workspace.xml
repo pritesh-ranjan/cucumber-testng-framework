@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b1cc4fb-e5a8-4fc5-99e4-cd36211eeba2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/automation-framework/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/FrameworkConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/FrameworkConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/NbaTestListner.java" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/java/com/nba/utilities/NbaTestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation-framework/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/automation-framework/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-product-tests/src/main/java/com/nba/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-product-tests/src/test/java/com/nba/runner/TestNGCucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-product-tests/src/test/java/com/nba/runner/TestNGCucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-product-tests/src/test/resources/features/core_product_tests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/core-product-tests/src/test/resources/features/core_product_tests.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core-product-tests/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core-product-tests/src/test/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derived-product1-tests/src/test/java/com/nba/runner/TestNGCucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/derived-product1-tests/src/test/java/com/nba/runner/TestNGCucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derived-product2-tests/src/test/java/com/nba/runners/TestNGCucumberRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/derived-product2-tests/src/test/java/com/nba/runners/TestNGCucumberRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +24,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1723533116" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1723533115" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,7 +63,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;introduce.parameter.lambda&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
