@@ -1,6 +1,6 @@
 package com.nba.runners;
 
-import com.nba.utilities.NbaTestListner;
+import com.nba.utilities.NbaTestListener;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.DataProvider;
@@ -18,7 +18,7 @@ import static io.cucumber.testng.CucumberOptions.SnippetType.CAMELCASE;
         monochrome = true,
         dryRun = false
 )
-@Listeners(NbaTestListner.class)
+@Listeners(NbaTestListener.class)
 public class TestNGCucumberRunner extends AbstractTestNGCucumberTests {
     @Override
     @DataProvider(parallel = true)

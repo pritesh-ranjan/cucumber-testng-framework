@@ -1,6 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
 <suite name="CucumberParallelSuite" parallel="methods" thread-count="3">
     <parameter name="cucumber.filter.tags" value="@smoke" />
+
+    <listeners>
+        <listener class-name="com.nba.utilities.NbaTestListener"/>
+    </listeners>
 
     <test name="CucumberParallelTest">
         <classes>

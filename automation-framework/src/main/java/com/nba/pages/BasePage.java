@@ -18,8 +18,15 @@ public class BasePage {
     }
 
     protected void click(By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
+    }
+
+    protected void jsclick(By locator) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(6));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
     }
 
     protected void sendKeys(By locator, String keyword) {

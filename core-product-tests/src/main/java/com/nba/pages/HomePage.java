@@ -21,9 +21,8 @@ public class HomePage extends BasePage {
     }
 
     public HomePage openMenu(MenuItems item) {
-        WebElement shop = driver.findElement(By.xpath(String.format(MENU_XPATH, item.value)));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.elementToBeClickable(shop));
+        WebElement shop = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(String.format(MENU_XPATH, item.value))));
         hoverOn(shop);
         return this;
     }
@@ -34,7 +33,7 @@ public class HomePage extends BasePage {
     }
 
     public NewsPage openNewsAndFeatures() {
-        click(NEWS_AND_FEATURES);
+        jsclick(NEWS_AND_FEATURES);
         return new NewsPage();
     }
 }

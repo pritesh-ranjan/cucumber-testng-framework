@@ -8,7 +8,7 @@ Feature: Core Product Test
     Then store all the results into a text file
 
 
-  @smoke2
+  @smoke
   Scenario: Test 2
     Given User opens the core product url
     When User navigates to News and features

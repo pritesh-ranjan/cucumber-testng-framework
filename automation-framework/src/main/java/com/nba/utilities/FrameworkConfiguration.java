@@ -5,6 +5,10 @@ import org.aeonbits.owner.Config;
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({"classpath:config.properties"})
 public interface FrameworkConfiguration extends Config {
+
+    @Key("browser")
+    String browser();
+
     @Key("core-product-url")
     String coreProductUrl();
 
